@@ -18,10 +18,6 @@ from .transformer import (DetrTransformerDecoder, DetrTransformerDecoderLayer,Cl
                           DynamicConv, PatchEmbed, Transformer, nchw_to_nlc,
                           nlc_to_nchw)
 from .mmcv_transformer import (MultiheadAttention,MultiScaleDeformableAttention,BaseTransformerLayer)
-from .class_transformer import (ClassDetrTransformerDecoderLayer,ClassDetrTransformerEncoder, ClassDetrTransformerDecoder, ClassTransformer, )
-from .huicv.vis.visualize import  draw_a_bbox
-from .huicv.plot_paper.plt_paper_config import set_plt
-from .transformer import CLSTransformer
 __all__ = [
     'ResLayer', 'gaussian_radius', 'gen_gaussian_target',
     'DetrTransformerDecoderLayer', 'DetrTransformerDecoder', 'Transformer','ClassDetrAttnLayer',
@@ -31,8 +27,7 @@ __all__ = [
     'SELayer', 'interpolate_as', 'ConvUpsample', 'CSPLayer',
     'adaptive_avg_pool2d', 'AdaptiveAvgPool2d', 'PatchEmbed', 'nchw_to_nlc',
     'nlc_to_nchw', 'pvt_convert', 'sigmoid_geometric_mean',
-    'preprocess_panoptic_gt', 'DyReLU','ClassDetrTransformerDecoderLayer','ClassDetrTransformerEncoder',
-    'ClassDetrTransformerDecoder', 'ClassTransformer',
+    'preprocess_panoptic_gt', 'DyReLU',
     'MultiheadAttention','MultiScaleDeformableAttention','BaseTransformerLayer',
-    'get_hsv_colors', 'draw_a_bbox','set_plt','CLSTransformer'
+    'get_hsv_colors',
 ]
