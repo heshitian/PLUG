@@ -13,7 +13,6 @@ This is the PyTorch implementation of the method in our paper "*Learning Remote 
 * [[mmdetection 2.22.0](https://github.com/open-mmlab/mmdetection)]
 * [[DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit)]
 * [[iSAID_devkit](https://github.com/CAPTAIN-WHU/iSAID_Devkit)]
-* [[DetVisGUI](https://github.com/Chien-Hung/DetVisGUI)]
 
 #### 2. Generating data with single point labels:
 * First, we use the DOTA_devkit and iSAID_devkit toolbox to generate cropped images with json annotations.
@@ -34,7 +33,7 @@ This is the PyTorch implementation of the method in our paper "*Learning Remote 
 * Run `train.py` with config `configs/mask_rcnn/mask_rcnn_r50_fpn_1x_dota.py` to train Mask-RCNN.
 #### 4. Testing Faster-RCNN or Mask-RCNN:
 * Run `test.py` to reference and evaluate Faster-RCNN and Mask-RCNN.
-* Run `DetVisGUI\DetVisGUI.py` to visualize the detection results of different detectors conveniently. 
+* Run `DetVisGUI\DetVisGUI.py` to visualize the detection results of different detectors conveniently. ( [[DetVisGUI](https://github.com/Chien-Hung/DetVisGUI)])
 #### 5. Other methods:
 * We retrain P2BNet, WSDDN and OICR in our code based on [[P2BNet](https://github.com/ucas-vg/P2BNet)] and [[WSOD2](https://github.com/researchmm/WSOD2)]. 
 * Run `train.py` with different configs to train the above methods.
