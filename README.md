@@ -60,7 +60,7 @@ This is the PyTorch implementation of the method in our paper "*Learning Remote 
 <br>
 
 ## Contact
-**Welcome to raise issues or email to [heshitian19@nudt.edu.cn](heshitian19@nudt.edu.cn) for any question regarding this work.**
+**Welcome to raise issues or email to heshitian19@nudt.edu.cn for any question regarding this work.**
 <!-- 
 <details> 
 <summary>statistics</summary>
