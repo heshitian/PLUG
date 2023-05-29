@@ -5,8 +5,8 @@ from tqdm import tqdm
 import numpy as np
 
 def main():
-    dota_json_file = '/media/h/H/DOTA10_512_128/annotations/DOTA_train_512_coarse.json'
-    isaid_json_file = '/media/h/H/ISAID_512_128/annotations/DOTA_train_512.json'
+    dota_json_file = '/media/h/H/DOTA10_512_128/annotations/DOTA_train_512.json'
+    isaid_json_file = '/media/h/H/ISAID_512_128/annotations/iSAID_train_512.json'
     dump_file = '/media/h/H/DOTA10_512_128/annotations/DOTA_train_512_coarse_seg.json'
     dota_json_info = json.load(open(dota_json_file,'r'))
     new_annotations = []
