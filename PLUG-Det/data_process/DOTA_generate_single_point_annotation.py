@@ -34,8 +34,10 @@ def main():
             if max(ious) >= 0.1:
                 fuse_index = np.argmax(ious)
                 isaid_ann = isaid_anns[fuse_index]
-                dota_ann['point'] = isaid_ann['point']
-                dota_ann['pseudo_box'] = isaid_ann['pseudo_box']
+                #dota_ann['point'] = isaid_ann['point']
+                #dota_ann['pseudo_box'] = isaid_ann['pseudo_box']
+                dota_ann['point'].update('point':isaid_ann['point'])
+                dota_ann['pseudo_box'].update('pseudo_box':isaid_ann['pseudo_box'])
                 dota_ann['bbox'] = isaid_ann['bbox']
                 dota_ann['area'] = isaid_ann['area']
                 dota_ann['segmentation'] = isaid_ann['segmentation']
