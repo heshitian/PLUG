@@ -43,7 +43,7 @@ This is the PyTorch implementation of the method in our paper "*Learning Remote 
 * Run `test_num.py` to generate the pseudo boxes of sub dataset with different object numbers cyclically. 
 * Run `data_process/bar_chart.py` to generate the mIoU distribution of images with different object numbers.
 ## Our model and data annotations:
-* Please download from the xxx.
+* Please download from the [[checkpoints(提取码：eh62)](https://pan.baidu.com/s/1yonTazs25aTLnwIkU_mOMw?pwd=eh62)].
 <!-- * [Baidu Drive](https:) (key:). -->
 
 ## Citiation
