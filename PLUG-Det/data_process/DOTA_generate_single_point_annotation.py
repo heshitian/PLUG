@@ -6,7 +6,7 @@ import numpy as np
 
 def main():
     dota_json_file = '/media/h/H/DOTA10_512_128/annotations/DOTA_train_512.json'
-    isaid_json_file = '/media/h/H/ISAID_512_128/annotations/iSAID_train_512.json'
+    isaid_json_file = '/media/h/H/ISAID_512_128/annotations/iSAID_train_512_coarse.json'
     dump_file = '/media/h/H/DOTA10_512_128/annotations/DOTA_train_512_coarse_seg.json'
     dota_json_info = json.load(open(dota_json_file,'r'))
     new_annotations = []
@@ -37,7 +37,7 @@ def main():
                 #dota_ann['point'] = isaid_ann['point']
                 #dota_ann['pseudo_box'] = isaid_ann['pseudo_box']
                 dota_ann['point'].update('point':isaid_ann['point'])
-                dota_ann['pseudo_box'].update('pseudo_box':isaid_ann['pseudo_box'])
+                dota_ann['pseudo_box'].update('pseudo_bbox':isaid_ann['pseudo_bbox'])
                 dota_ann['bbox'] = isaid_ann['bbox']
                 dota_ann['area'] = isaid_ann['area']
                 dota_ann['segmentation'] = isaid_ann['segmentation']
