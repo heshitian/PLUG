@@ -13,6 +13,7 @@ This is the PyTorch implementation of the method in our paper "*Learning Remote 
 * [[mmdetection 2.22.0](https://github.com/open-mmlab/mmdetection)]
 * [[DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit)]
 * [[iSAID_devkit](https://github.com/CAPTAIN-WHU/iSAID_Devkit)]
+* [[dijkstra](https://github.com/BraveGroup/PSPS)]
 
 #### 2. Generating data with single point labels:
 * First, we use the DOTA_devkit and iSAID_devkit toolbox to generate cropped images with json annotations.
@@ -52,7 +53,7 @@ This is the PyTorch implementation of the method in our paper "*Learning Remote 
 @Article{PLUG-Det,
     author    = {He, Shitian and Zou, Huanxin and Wang, Yingqian and Li, Boyang and Cao, Xu and Jing, Ning},
     title     = {Learning Remote Sensing Object Detection with Single Point Supervision},
-    journal   = {arXiv preprint arXiv:xxxxxxx}, 
+    journal   = {IEEE TGRS}, 
     year      = {2023},   
 }
 ```
